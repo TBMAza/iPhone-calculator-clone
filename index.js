@@ -22,7 +22,6 @@ const AllClear = document.getElementById(`acBtn`);
 const ChangeSign = document.getElementById(`signBtn`);
 const PercentOf = document.getElementById(`percBtn`);
 
-let numberBuffer = 0;
 let firstOperandBuffer = null;
 let secondOperandBuffer = null;
 
@@ -31,7 +30,6 @@ let operationInit = false;
 
 AllClear.onclick = function() {
     Display.textContent = `0`;
-    numberBuffer = 0;
     firstOperandBuffer = null;
     secondOperandBuffer = null;
     operationBuffer = null;
